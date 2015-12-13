@@ -33,7 +33,8 @@ npm start
   * Klucz api
   * sekret api
   * nick osoby, dla której chcemy wygenerowac statystyki
-  * Datę w formacie DD.MM.RRRR np. 01.01.2015
+  * Zakres pobieranych wpisów - **od najnowszych do podanej daty** DD.MM.RRRR np. za cay 2015 rok: `01.01.2015`
+  * Minimalna liczba plusów od użytkownika, aby pojawil sie na liscie "top plusujacych"
 * Program pobierze wpisy z api i plik ze statystykami zapisze w folderze z programem
 
 ![img](https://raw.githubusercontent.com/bnt44/atencjometr/master/images/demo.gif)
