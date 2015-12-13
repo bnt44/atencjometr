@@ -7,6 +7,10 @@ Ze wzgldu na limity zapytań do API wykopu każdy musi wygenerować swój klucz 
 * Wpisujemy nazwe aplikacji (dowolna), zaznaczamy regulamin i captche
 * "Generuj klucz api" - zapisujemy klucze, gotowe
 
+![img](https://raw.githubusercontent.com/bnt44/atencjometr/master/images/tworzenie-aplikacji.jpg)
+
+![img](https://raw.githubusercontent.com/bnt44/atencjometr/master/images/klucze.jpg)
+
 ##Windows
 * Przechodzimy do https://github.com/bnt44/atencjometr/releases
 * Pobieramy najnowszą wersję
@@ -31,6 +35,8 @@ npm start
   * nick osoby, dla której chcemy wygenerowac statystyki
   * Datę w formacie DD.MM.RRRR np. 01.01.2015
 * Program pobierze wpisy z api i plik ze statystykami zapisze w folderze z programem
+
+![img](https://raw.githubusercontent.com/bnt44/atencjometr/master/images/demo.gif)
 
 ##Limity 
 API Wykopu ma limity godzinowe zapytań na konto. Pobranie 1 strony z API = jedno zapytanie. 
