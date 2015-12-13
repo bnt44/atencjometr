@@ -1,0 +1,17 @@
+{
+  "name": "atencjometr",
+  "version": "0.0.1",
+  "description": "sprawdza kto nas plusuje",
+  "main": "./lib/script.js",
+  "scripts": {
+	"start": "node ./lib/script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MirkoStats",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "1.1.2",
+    "datejs": "0.0.2",
+    "wykop-es6": "0.5.1"
+  }
+}
